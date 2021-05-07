@@ -1,0 +1,41 @@
+Arguments: 
+  /usr/bin/node /home/izaias/.yarn/bin/yarn.js add express mongoose express body-parser cors jsonwebtoken bcrypt bcryptjs morgan dotenv eslint-friendly-formater
+
+PATH: 
+  /home/izaias/.yarn/bin:/home/izaias/.config/yarn/global/node_modules/.bin:/home/izaias/anaconda3/condabin:/home/izaias/.zinit/polaris/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  16.0.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/eslint-friendly-formater: Not found
+      at Request.params.callback [as _callback] (/home/izaias/.yarn/lib/cli.js:66988:18)
+      at Request.self.callback (/home/izaias/.yarn/lib/cli.js:140749:22)
+      at Request.emit (node:events:365:28)
+      at Request.<anonymous> (/home/izaias/.yarn/lib/cli.js:141721:10)
+      at Request.emit (node:events:365:28)
+      at IncomingMessage.<anonymous> (/home/izaias/.yarn/lib/cli.js:141643:12)
+      at Object.onceWrapper (node:events:471:28)
+      at IncomingMessage.emit (node:events:377:35)
+      at endReadableNT (node:internal/streams/readable:1312:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "backend",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
